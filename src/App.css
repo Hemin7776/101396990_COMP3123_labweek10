@@ -1,0 +1,86 @@
+/* App container */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Form labels and inputs */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input[type="email"],
+form input[type="text"],
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form .form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row > div {
+  flex: 1;
+}
+
+/* Checkbox */
+form label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Submit button */
+form button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Submitted data container */
+.submitted-data {
+  margin-top: 20px;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Table styling for submitted data */
+.submitted-data h2 {
+  color: green;
+  text-align: center;
+}
+
+.submitted-data table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.submitted-data td {
+  padding: 5px;
+}
+
+.submitted-data td:first-child {
+  font-weight: bold;
+  color: green;
+}
